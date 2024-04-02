@@ -10,7 +10,7 @@ from pippy.PipelineSchedule import PipelineScheduleGPipe
 
 os.environ['TRANSFORMERS_CACHE'] = '/scratch/npattab1/hf_cache'
 os.environ['HF_HOME'] = '/scratch/npattab1/hf_cache'
-access_token = "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"
+access_token = ""
 
 
 rank = int(os.environ["RANK"])
